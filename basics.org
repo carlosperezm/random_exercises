@@ -33,6 +33,16 @@ You can add a remote repo, in this case hosted by Github.
 push remote, it is normally the same.
 If you have a single remote, it is called origin.
 
+** Push changes to a remote repo
+Send commits in a local repo to a remote. Made through HTTP or SSH
+protocols. Only differences are sent.
+
+~git push --set-upstream origin master~ The first time. Also
+ ~git push -u origin master~ It is a healthy option to make sure the local
+ ~master~ branch tracks the origin remote's branch master. A /tracking branch/
+ is the default push or fetch location for a branch
+The next time you can run:
+~git push origin master~
 
 * Tips & tricks
  - command --help
