@@ -1,0 +1,27 @@
+#+TITLE: GIT basics
+#+author: Carlos Pérez
+
+
+* Create a repo
+Use ~git init [name of repo]~ to initialize a git repository
+
+* Build commit in staging area
+~git add [filename]~
+It is possible to pass directories as args. No args adds everything.
+
+* Commit changes
+Stores the changes of one or more files.
+
+Contents:
+ - Message
+ - Author
+ - Unique reference SHA-1
+ - Parent reference
+ - Date
+ - File diffs
+
+~git commit -m message~
+
+* Tips & tricks
+ - command --help
+ - 
