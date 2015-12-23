@@ -23,6 +23,16 @@ Contents:
 ~git commit -m message~
 
 * Remote git
+Git is a distributed version control system, so you can use it offine and
+locally. But it is really useful to share our work with others.
+** Adding a remote repo 
+You can add a remote repo, in this case hosted by Github.
+
+~git remote add origin~
+~git remote --verbose~ to check the remote has been added. It lists a fetch and
+push remote, it is normally the same.
+If you have a single remote, it is called origin.
+
 
 * Tips & tricks
  - command --help
