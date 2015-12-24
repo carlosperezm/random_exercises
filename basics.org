@@ -44,6 +44,13 @@ protocols. Only differences are sent.
 The next time you can run:
 ~git push origin master~
 
+** Cloning a remote
+ - Clone :: Create a new local repo from an existing remote. It's a complete
+      copy including all metadata
+
+ - ~git clone [remote location]~
+
+
 * Tips & tricks
  - command --help
  - 
