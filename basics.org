@@ -38,9 +38,9 @@ Send commits in a local repo to a remote. Made through HTTP or SSH
 protocols. Only differences are sent.
 
 ~git push --set-upstream origin master~ The first time. Also
- ~git push -u origin master~ It is a healthy option to make sure the local
- ~master~ branch tracks the origin remote's branch master. A /tracking branch/
- is the default push or fetch location for a branch
+~git push -u origin master~ It is a healthy option to make sure the local
+~master~ branch tracks the origin remote's branch master.
+A /tracking branch/ is the default push or fetch location for a branch
 The next time you can run:
 ~git push origin master~
 
@@ -50,6 +50,13 @@ The next time you can run:
 
  - ~git clone [remote location]~
 
+** Fetch changes without merging
+ - ~git fetch~ to download the new commits but skip the merge step, in contrast
+   to ~git pull~
+
+/Push or fetch/: It's recommended ~git fetch~. You can fetch regularly in the
+background and only include changes in the branch when it's convenient and
+using the most convenient method.
 
 * Tips & tricks
  - command --help
